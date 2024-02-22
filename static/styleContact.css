@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&family=Courgette&family=IBM+Plex+Sans:ital@1&family=Merriweather:wght@300&family=Montserrat&family=Satisfy&family=Stylish&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 83.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h1{
+    font-family: 'Merriweather', serif;
+}
+
+.myForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.myInput{
+    width:450px;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn{
+    padding:6px 16px;
+    margin:8px;
+    font-size: 18px;
+    border:2px solid black;
+    border-radius: 8px;
+    color: black;
+    background: rgb(216, 214, 214);
+    cursor: pointer;
+    outline: none;
+    
+}
